@@ -69,8 +69,39 @@ The application supports Diffie-Hellman key exchange for secure key distribution
 - **加载聊天记录**：重新登录后安全地加载之前的聊天记录。
 
 ---
+## server machine Requirements
 
-## Requirements
+- Python 3.7+
+- Required libraries: `tkinter`, `asyncio`, `json`, `ssl`, `passlib`, `cryptography`
+
+You can install the necessary dependencies using `pip`:
+
+```bash
+pip install passlib cryptography
+```
+or you can use `requirments.txt`
+
+```bash
+pip install -r requirements-server.txt
+```
+
+## 服务器安装库要求
+
+- python 3.7+
+- 需求的库: `tkinter`, `asyncio`, `json`, `ssl`, `passlib`, `cryptography`
+
+你可以使用`pip`安装必须的库:
+
+```bash
+pip install passlib cryptography
+```
+或者你可以使用`requirments-server.txt`
+
+```bash
+pip install -r requirements-server.txt
+```
+
+## client machine Requirements
 
 - Python 3.7+
 - Required libraries: `tkinter`, `asyncio`, `json`, `ssl`, `pycryptodome`, `cryptography`
@@ -80,12 +111,12 @@ You can install the necessary dependencies using `pip`:
 ```bash
 pip install pycryptodome cryptography
 ```
-or you can use `requirment.txt`
+or you can use `requirments.txt`
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements-client.txt
 ```
-## 安装库要求
+## 客户端安装库要求
 
 - python 3.7+
 - 需求的库: `tkinter`, `asyncio`, `json`, `ssl`, `pycryptodome`, `cryptography`
@@ -125,9 +156,9 @@ pip install -r requirements.txt
    python e2eechat-securechat-server.py
    ```
 -在客户端上运行以下命令启动聊天客户端：
-    ```bash
+   ```bash
    python e2eechat-securechat-client.py
-    ``` 
+   ```
 ---
 ## Security and Privacy
 - End-to-End Encryption: All communication is encrypted on the client-side. Even the server cannot read your messages.
