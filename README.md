@@ -79,3 +79,19 @@ You can install the necessary dependencies using `pip`:
 
 ```bash
 pip install pycryptodome cryptography
+
+
+
+**解释**：
+- ```bash 表示代码块的语言类型是 Bash，这样在显示时可以进行语法高亮。
+- 使用反引号包裹代码块，这样 Markdown 渲染时会将代码格式化为块状展示。
+
+### 示例：
+```bash
+#!/bin/bash
+
+# 打印“Hello, World!”
+echo "Hello, World!"
+
+# 列出当前目录下的所有文件
+ls -l
