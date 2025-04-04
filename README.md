@@ -102,3 +102,25 @@ pip install -r requirements.txt
 ```
 
 ---
+## Usage
+- Run the Python script to start the application.
+- Register a new account or log in with an existing one.
+- Once logged in, you can start secure one-on-one or group chats.
+- Use the various buttons to add friends, create groups, and manage your chat history.
+
+## 使用方法
+- 运行 Python 脚本以启动应用程序。
+- 注册新帐户或使用现有帐户登录。
+- 登录后，您可以开始一对一的安全聊天或群聊。
+- 使用各个按钮来添加好友、创建群组和管理聊天记录。
+
+---
+## Security and Privacy
+- End-to-End Encryption: All communication is encrypted on the client-side. Even the server cannot read your messages.
+- Private Key Storage: Private keys are stored securely and are used to encrypt/decrypt messages.
+- Chat History Encryption: Chat history is encrypted using AES with a password key.
+
+## 安全与隐私
+- 端到端加密：所有通信都在客户端加密，即使服务器也无法读取您的消息。
+- 私钥存储：私钥被安全存储，用于加密/解密消息。
+- 聊天记录加密：聊天记录使用 AES 加密，并通过密码密钥进行保护。
