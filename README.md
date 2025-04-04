@@ -100,3 +100,5 @@ pip install pycryptodome cryptography
 ```bash
 pip install -r requirements.txt
 ```
+
+---
