@@ -87,8 +87,8 @@ pip install -r requirements.txt
 ```
 ## 安装库要求
 
--python 3.7+
--需求的库: `tkinter`, `asyncio`, `json`, `ssl`, `pycryptodome`, `cryptography`
+- python 3.7+
+- 需求的库: `tkinter`, `asyncio`, `json`, `ssl`, `pycryptodome`, `cryptography`
 
 你可以使用`pip`安装必须的库:
 
