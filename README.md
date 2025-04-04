@@ -107,13 +107,27 @@ pip install -r requirements.txt
 - Register a new account or log in with an existing one.
 - Once logged in, you can start secure one-on-one or group chats.
 - Use the various buttons to add friends, create groups, and manage your chat history.
-
+- On the server machine, run the server script:
+   ```bash
+   python e2eechat-securechat-server.py
+   ```
+- On the client machine, run the client script:
+    ```bash
+   python e2eechat-securechat-client.py
+   ``` 
 ## 使用方法
 - 运行 Python 脚本以启动应用程序。
 - 注册新帐户或使用现有帐户登录。
 - 登录后，您可以开始一对一的安全聊天或群聊。
 - 使用各个按钮来添加好友、创建群组和管理聊天记录。
-
+- 在服务器上运行以下命令启动服务端：
+   ```bash
+   python e2eechat-securechat-server.py
+   ```
+-在客户端上运行以下命令启动聊天客户端：
+    ```bash
+   python e2eechat-securechat-client.py
+    ``` 
 ---
 ## Security and Privacy
 - End-to-End Encryption: All communication is encrypted on the client-side. Even the server cannot read your messages.
